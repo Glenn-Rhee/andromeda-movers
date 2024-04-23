@@ -11,14 +11,16 @@ import {
   NavbarMenuToggle,
 } from "@nextui-org/react";
 import { useState } from "react";
+
 export default function NavbarAndromeda() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const menuItems = ["Home", "Galeri", "Kontak"];
+
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-[#CEDEBD]">
+    <Navbar maxWidth="xl" onMenuOpenChange={setIsMenuOpen} className="bg-[#CEDEBD]">
       <NavbarContent>
         <NavbarBrand>
-          <p className="font-bold text-inherit uppercase text-2xl italic">
+          <p className="font-bold text-inherit uppercase text-xl lg:text-2xl italic">
             <span className="text-[#54831f]">Andromeda</span>{" "}
             <span className="text-[#f4f0f0]">Movers</span>
           </p>
