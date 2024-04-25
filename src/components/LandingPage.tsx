@@ -15,7 +15,7 @@ export default function LandingPage() {
             src={"/img/trucks.jpg"}
             width={widthImg}
             height={heightImg}
-            className="brightness-75 rounded-md overflow-hidden"
+            className="brightness-75 overflow-hidden"
           />
         </div>
         <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center h-full">
@@ -30,7 +30,7 @@ export default function LandingPage() {
           </div>
           <div className="min-w-full mt-4 flex items-center">
             <Button className="mx-auto" color="success">
-              <a href="#contact" className="flex items-center gap-x-3">
+              <a href="https://wa.me/6287884393999" className="flex items-center gap-x-3" target="_blank">
                 <IoIosCall className="text-sm lg:text-lg" />
                 <span className="text-sm lg:text-lg font-semibold">
                   Hubungi Kami
