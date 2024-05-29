@@ -18,12 +18,6 @@ export const services: Services[] = [
     imgSrc: "/img/pindahan.jpg",
   },
   {
-    title: "Pindahan Brangkas",
-    description:
-      "Kata Brankas adalah berasal dari Bahasa Belanda, kata branden artinya membakar dan kast artinya lemari, jadi lemari tahan kebakaran. Sedangkan dalam bahasa Indonesia Lemari Besi, yaitu lemari yang terbuat dari besi.",
-    imgSrc: "/img/barang-stuck.jpg",
-  },
-  {
     title: "Pindahan Gudang",
     description:
       "Setiap jenis bangunan bisa saja memiliki gudang, misalnya saja gudang pada bangunan pabrik, toko, dan bahkan rumah tinggal. Karena digunakan untuk menyimpan berbagai macam barang, biasanya gudang berpotensi untuk menyimpan debu.",
