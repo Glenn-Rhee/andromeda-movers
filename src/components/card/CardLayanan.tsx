@@ -2,7 +2,7 @@ import { CardLayananProps } from "@/types/components";
 import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
 
 export default function CardLayanan(props: CardLayananProps) {
-  const { title, description, imgSrc } = props;
+  const { title, imgSrc } = props;
 
   return (
     <Card className="pb-4">

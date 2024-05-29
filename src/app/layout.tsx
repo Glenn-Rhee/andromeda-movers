@@ -8,6 +8,10 @@ const inter = Inter({ subsets: ["latin"], style: "normal" });
 export const metadata: Metadata = {
   title: "Andromeda Movers",
   description: "Andromeda Movers melayani berbagai macam jasa pindahan",
+  authors: {
+    name: "Ariel Rizki Muhtamad Bakri",
+    url: "https://github.com/Glenn-Rhee",
+  },
 };
 
 export default function RootLayout({

@@ -11,12 +11,14 @@ export default function ContainerCard(props: ContainerCardProps) {
       {title.toLowerCase().includes("layanan") ? (
         <div>
           <p className="text-lg text-slate-900 font-medium text-center">
-            Andromeda Movers melayani berbagai macam jasa pindahan, termasuk
-            jasa pindahan jarak jauh, seperti jasa pindahan antar kota dengan
-            berbagai layanan. Jenis layanan yang dipilih menjadi faktor utama
-            kami menentukan suatu tarif jasa pindahan, selain itu faktor jarak
-            tempuh dan banyaknya jumlah barang–barang yang akan dipindahkan juga
-            turut mempengaruhi tercipta nya suatu tarif jasa pindahan kami.
+            Andromeda Movers melayani berbagai macam jasa pindahan apartement,
+            kost, rumah, kantor, pengiriman barang, catring, pengiriman paket,
+            dan lain sebagainya. Andromeda Movers juga melayani sewa mobil
+            engkel box dengan destinasi tujuan Jabodetabek, Jawa Barat, Jawa
+            Timur, Jawa Tengah, Bali, dan Sumatera dengan berbagai layanan yang
+            amanah dan tenaga profesional. Jenis layanan yang anda pilih menjadi
+            faktor utama kami menentukan tarif jasa dengan biaya yang
+            terjangkau.
           </p>
         </div>
       ) : null}
